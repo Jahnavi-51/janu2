@@ -1,0 +1,30 @@
+lst1 = [1, 2, 3, 4, 5, 'janu', 'vasu', 'ravi']
+tup1 = (6, 7, 8, 9, 10, 'mega', 'star')
+set1 = {11, 12, 13, 11, 24, 35, 67, 89, 'what', 'why', 'where'}
+dic1 = {'name': 'jahnavi', 'cls': 'noclass', 'sub': 'P.L'}
+lst2 = list(tup1)
+print(lst2)
+lst3 = list(set1)
+print(lst3)
+lst4 = list(dic1)
+print(lst4)
+tup2 = tuple(lst1)
+print(tup2)
+tup3 = tuple(set1)
+print(tup3)
+tup4 = tuple(dic1)
+print(tup4)
+set2 = set(lst1)
+print(set2)
+set3 = set(tup1)
+print(set3)
+set4 = set(dic1)
+print(set4)
+ite1 = [list(item) for item in dic1.items()]
+print(ite1)
+ite2 = (tuple(item) for item in dic1.items())
+print(ite2)
+'''dic3 = dictonary(tup1)
+print(dic3)
+dic4 = dictonary(set1)
+print(dic4)'''
